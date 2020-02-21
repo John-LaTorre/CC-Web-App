@@ -35,6 +35,9 @@
     <Compile Include="LearningLog\apps.py" />
     <Compile Include="LearningLog\migrations\__init__.py" />
     <Compile Include="LearningLog\models.py" />
+    <Compile Include="LearningLog\urls.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LearningLog\tests.py" />
     <Compile Include="LearningLog\views.py" />
     <Compile Include="LearningLog\__init__.py" />

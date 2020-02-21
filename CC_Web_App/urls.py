@@ -25,8 +25,9 @@ import LearningLog.views
 
 urlpatterns = [
     # Uncomment the next line to enable the admin:
-    path('admin/', admin.site.urls)
-    #path('', views.index, name= 'index'),
-    #path('home/', LearningLog.views.index, name='home'),
+    path('admin/', admin.site.urls),
+    path('', include('LearningLog.urls')),
+
+    
 
 ]
